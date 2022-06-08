@@ -1,0 +1,44 @@
+{
+  "name": "stylelint-config-erinchoco",
+  "version": "1.0.0",
+  "description": "Stylelint and Prettier Setup - with or without VS Code",
+  "main": "index.js",
+  "scripts": {
+    "style": "stylelint *.css *.scss",
+    "style:fix": "stylelint *.css *.scss --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/erinchocolate/stylelint-config-erinchoco.git"
+  },
+  "keywords": [
+    "Stylelint",
+    "Prettier"
+  ],
+  "author": "meiqiao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erinchocolate/stylelint-config-erinchoco/issues"
+  },
+  "homepage": "https://github.com/erinchocolate/stylelint-config-erinchoco#readme",
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "stylelint": "^14.9.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-config-standard-scss": "^4.0.0",
+    "stylelint-prettier": "^2.0.0",
+    "stylelint-scss": "^4.2.0"
+  },
+  "peerDependencies": {
+    "prettier": "^2.6.2",
+    "stylelint": "^14.8.5",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-scss": "^4.0.0",
+    "stylelint-prettier": "^2.0.0",
+    "stylelint-scss": "^4.2.0"
+  }
+}
